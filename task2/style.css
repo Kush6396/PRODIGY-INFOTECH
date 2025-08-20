@@ -1,0 +1,35 @@
+*{box-sizing:border-box} html,body{height:100%}
+body{
+  margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial;
+  background: radial-gradient(1000px 500px at 80% -20%, #5da3ff 0, transparent 60%) #1b1340;
+  color:#fff; display:flex; flex-direction:column;
+}
+.topbar{position:sticky;top:0;padding:14px 20px;background:#231a4f7a;backdrop-filter:blur(6px);font-weight:700}
+.wrap{max-width:720px;margin:40px auto;padding:24px}
+.display{
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(44px, 7vw, 84px);
+  text-align:center; letter-spacing:2px; margin:40px 0;
+}
+.controls{display:flex; gap:12px; justify-content:center; flex-wrap:wrap}
+.btn{
+  padding:12px 20px; border:none; border-radius:14px; cursor:pointer; font-size:16px;
+  background:#342b68; color:#fff; transition:transform .05s ease, opacity .2s;
+}
+.btn:disabled{opacity:.5; cursor:not-allowed}
+.btn:active{transform:scale(.98)}
+.primary{background:#5a7cff}
+.laps{margin-top:28px}
+.laps h3{margin:10px 0 8px; font-weight:700}
+#lapsList{
+  list-style:none; padding:0; margin:0; max-height:260px; overflow:auto;
+  border:1px solid #3d3678; border-radius:12px;
+}
+#lapsList li{
+  display:flex; justify-content:space-between; padding:10px 14px; border-bottom:1px solid #2d275d;
+}
+#lapsList li:last-child{border-bottom:none}
+.hint{opacity:.7; text-align:center; margin:24px auto 40px}
+kbd{
+  background:#2b235c; border:1px solid #3d3678; border-radius:6px; padding:2px 6px; font-family:inherit;
+}
