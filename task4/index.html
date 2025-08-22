@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - CSE Student</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00adb5;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px 0;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    .about, .skills, .projects, .contact {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .about img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #1a1a40;
+    }
+    .skills ul, .projects ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+    footer {
+      background: #1a1a40;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Hi, I'm Kush Sharma</h1>
+    <p>Computer Science & Engineering Student | Aspiring Web Developer</p>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <div class="container">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <img src="photo.jpg" alt="My Photo">
+      <p>
+        I am a Computer Science & Engineering (CSE) student passionate about technology, 
+        problem-solving, and building impactful web applications. With a strong foundation in programming, 
+        data structures, and databases, I enjoy exploring new technologies in web development, cloud computing, 
+        and artificial intelligence. I aim to become a skilled software engineer and contribute to innovative projects.
+      </p>
+      <p><strong>Education:</strong></p>
+      <ul>
+        <li>B.Tech in Computer Science & Engineering (2022–2026)</li>
+        <li>Relevant Coursework: Data Structures, DBMS, Operating Systems, Computer Networks, Web Development</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: C, C++, Java, Python</li>
+        <li>Web Development: HTML, CSS, JavaScript, PHP, MySQL</li>
+        <li>Database Management: MySQL, MongoDB</li>
+        
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Password Generator in Python</strong> – A Python application that generates strong, secure passwords.</li>
+        <li><strong>To-Do List Application</strong> – Task management system with CLI and GUI interface.</li>
+        <li><strong>Hotel Management System</strong> – DBMS project built with PHP and MySQL to manage bookings.</li>
+        <li><strong>Portfolio Website</strong> – Personal portfolio showcasing my skills and projects.</li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> kushsharma@example.com</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/kush-sharma</p>
+      <p><strong>GitHub:</strong> github.com/KushSharma</p>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Kush Sharma | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
